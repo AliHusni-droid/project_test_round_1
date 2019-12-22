@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Project Submussion</string>
+    <string name="logo_splash">Logo SplashScreen</string>
+    <string name="loading">Loading Wait Five Second Guys.........</string>
+    <string name="image">Image</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="register"> Register </string>
+    <string name="input_email"> Input Email </string>
+    <string name="login"> Login </string>
+    <string name="i_have_account">I Have Account</string>
+    <string name="no_have_account">No Have Account</string>
+    <string name="forgot_your_password"> Forgot Your Password </string>
+    <string name="back"> Back </string>
+    <string name="exit"> Exit </string>
+    <string name="forgot_password"> Forgot Password </string>
+    <string name="reset_password"> Reset Password </string>
+    <string name="welcome"> Welcome My Application </string>
+    <string name="input_password">Input Password</string>
+    <string name="gambar_buah">Gambar Buah</string>
+    <string name="nama_buah">Nama Buah</string>
+    <string name="kembali">Kembali</string>
+    <string name="nama_deskripsi_buah">nama deskripsi buah</string>
+    <string name="menu_profile">Menu Profile</string>
+    <string name="name">Nama</string>
+    <string name="description_picture_profile">description picture profile</string>
+    <string name="name_profile_one">Ali Husni</string>
+    <string name="nim">Nim</string>
+    <string name="nim_ali">G.211.18.0110</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="name_jurusan">Teknik Informatika</string>
+    <string name="my_profile">My Profile</string>
+    <string name="name_profile_two">Fahrezi Bayu</string>
+    <string name="nim_bayu">G.231.18.0102</string>
+    <string name="nim_alwi">G.211.16.0077</string>
+    <string name="name_profile_three">Aulia Alwi Assegaf</string>
+    <string name="nama_deskripsi_sayur">nama deskripsi sayur</string>
+    <string name="nama_sayur">Nama Sayur</string>
+    <string name="gambar_sayur">gambar sayur</string>
+    <string name="profile">Profile</string>
+    <string name="welcome_success">Welcome To My Project Submission</string>
+    <string name="fruit_and_vegetable">FRUIT AND VEGETABLE</string>
+    <string name="create_by">Create By Alwi, Ali, Fahrezi</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="choose">Silahkan Pilih Jeni Kelamin</string>
+
+    <string-array name="name_fruit">
+        <item> Anggur </item>
+        <item> Apel </item>
+        <item> Avocado </item>
+        <item> Buah Naga </item>
+        <item> Jeruk </item>
+        <item> Mangga </item>
+        <item> Manggis </item>
+        <item> Nangka </item>
+        <item> Pepaya </item>
+        <item> Pir </item>
+        <item> Pisang </item>
+        <item> Salak </item>
+        <item> Sawo </item>
+        <item> Semangka </item>
+        <item> Sirsak </item>
+    </string-array>
+    <array name="picture_fruit">
+        <item>@drawable/anggur</item>
+        <item>@drawable/apel</item>
+        <item>@drawable/avocad</item>
+        <item>@drawable/buahnaga</item>
+        <item>@drawable/jeruk</item>
+        <item>@drawable/mangga</item>
+        <item>@drawable/manggis</item>
+        <item>@drawable/nangka</item>
+        <item>@drawable/pepaya</item>
+        <item>@drawable/pir</item>
+        <item>@drawable/pisang</item>
+        <item>@drawable/salak</item>
+        <item>@drawable/sawo</item>
+        <item>@drawable/semangka</item>
+        <item>@drawable/sirsak</item>
+
+    </array>
+    <string-array name="description_fruit">
+        <item> merupakan tanaman buah berupa perdu merambat yang termasuk ke dalam keluarga Vitaceae </item>
+        <item> adalah jenis buah-buahan, atau buah yang dihasilkan dari pohon buah apel. Buah apel biasanya berwarna merah kulitnya jika masak dan (siap dimakan) </item>
+        <item> ialah tumbuhan penghasil buah meja dengan nama sama. Tumbuhan ini berasal dari Meksiko dan Amerika Tengah dan kini banyak dibudidayakan di Amerika Selatan dan Amerika Tengah  </item>
+        <item> adalah buah dari beberapa jenis kaktus dari marga Hylocereus dan Selenicereus. Buah ini berasal dari Meksiko, Amerika Tengah dan Amerika Selatan  </item>
+        <item> buah yang memiliki bentuk yang bulat dan kulit yang berwarna oranye. Aroma yang khas dikeluarkan oleh jeruk pun sangat kuat sehingga kita dapat dengan mudah menebak buah jeruk tanpa harus melihatnya  </item>
+        <item> nama sejenis buah, demikian pula nama pohonnya. Mangga termasuk ke dalam marga Mangifera, yang terdiri dari 35-40 anggota dan suku Anacardiaceae </item>
+        <item> sejenis pohon hijau abadi dari daerah tropika yang diyakini berasal dari Semenanjung Malaya dan menyebar ke Kepulauan Nusantara </item>
+        <item> sejenis pohon, sekaligus buahnya. Pohon nangka termasuk ke dalam suku Moraceae; nama ilmiahnya adalah Artocarpus heterophyllus </item>
+        <item> tumbuhan yang berasal dari Meksiko bagian selatan dan bagian utara dari Amerika Selatan </item>
+        <item> sebutan untuk pohon dari genus Pyrus dan buah yang dihasilkan. Beberapa spesies pohon pir menghasilkan buah yang enak dimakan  </item>
+        <item> adalah nama umum yang diberikan pada tumbuhan terna raksasa berdaun besar memanjang dari suku Musaceae. Beberapa jenisnya (Musa acuminata, M. balbisiana, dan M. ×paradisiaca) </item>
+        <item> sejenis palma dengan buah yang biasa dimakan. Ia dikenal juga sebagai sala (Min., Mak., Bug.,[1] dan Thai). Dalam bahasa Inggris disebut salak atau snake fruit, sementara nama ilmiahnya adalah Salacca zalacca </item>
+        <item> sejenis buah yang asalnya dari wilayah Amerika Tengah dan Meksiko bagian selatan.[1] Namun karena manfaatnya, pohon buah ini sekarang telah dibudidayakan di banyak negara </item>
+        <item> tanaman merambat yang berasal dari daerah setengah gurun di Afrika bagian selatan.  </item>
+        <item> tumbuhan berguna yang berasal dari Karibia, Amerika Tengah dan Amerika Selatan. Di berbagai daerah Indonesia dikenal sebagai nangka sebrang, nangka landa (Jawa), nangka walanda, sirsak (Sunda)  </item>
+    </string-array>
+
+    <string-array name="name_vegetable">
+        <item> Bayam </item>
+        <item> Brokoli </item>
+        <item> Daun Bawang </item>
+        <item> Jengkol </item>
+        <item> Kangkung </item>
+        <item> Kentang </item>
+        <item> Kol </item>
+        <item> Kucai </item>
+        <item> Lada </item>
+        <item> Sawi </item>
+        <item> Seledri </item>
+        <item> Terong </item>
+        <item> Timun </item>
+        <item> Tomat </item>
+        <item> Wortel </item>
+    </string-array>
+    <array name="picture_vegetable">
+        <item>@drawable/bayam</item>
+        <item>@drawable/brokoli</item>
+        <item>@drawable/daunbawang</item>
+        <item>@drawable/jengkol</item>
+        <item>@drawable/kangkung</item>
+        <item>@drawable/kentang</item>
+        <item>@drawable/kol</item>
+        <item>@drawable/kucai</item>
+        <item>@drawable/lada</item>
+        <item>@drawable/sawi</item>
+        <item>@drawable/seledri</item>
+        <item>@drawable/terong</item>
+        <item>@drawable/timun</item>
+        <item>@drawable/tomat</item>
+        <item>@drawable/wortel</item>
+    </array>
+    <string-array name="description_vegetable">
+        <item> dikenal sebagai salah satu sayuran yang penting bagi kesehatan otak. Kandungan mineral seperti asam folat, vitamin A, vitamin B6, vitamin C dan antioksidan  </item>
+        <item> merupakan sayuran pembangkit tenaga, manfaat untuk pencernaan, sistem kardiovaskular, sistem kekebalan tubuh, anti inflamasi dan pencegahan kanker </item>
+        <item> merupakan jenis sayuran dari kelompok bawang yang banyak digunakan dalam masakan. Dalam seni masak Indonesia, daun bawang bisa ditemukan misalnya dalam martabak telur, sebagai bagian dari sop </item>
+        <item> tumbuhan khas di wilayah Asia Tenggara. Bijinya digemari di Malaysia (disebut "jering"), Myanmar (disebut "da nyin thee'"), dan Thailand (disebut "luk-nieng" atau "luk neang").[1] Masyarakat Indonesia mengenalnya sebagai bahan pangan</item>
+        <item> termasuk sayuran daun yang populer. Hampir setiap penjual sayuran menjual kangkung. Tanaman ini dapat tumbuh dengan baik di daerah dataran rendah. </item>
+        <item> tanaman dari suku Solanaceae yang memiliki umbi batang yang dapat dimakan dan disebut "kentang" pula. Asalnya dari Amerika Selatan dan telah dibudidayakan oleh penduduk di sana sejak ribuan tahun silam.  </item>
+        <item> adalah tanaman dua tahunan hijau atau ungu berdaun, ditanam sebagai tanaman tahunan sayuran untuk kepala padat berdaunnya. Erat kaitannya dengan tanaman cole lainnya, seperti brokoli, kembang kol, dan kubis brussel. </item>
+        <item> dikenal sebagai sayuran daun. Kucai jarang dipakai dalam menu masakan Indonesia. Nama kucai berasal dari Bahasa Hokkian, "Kú-chhài". </item>
+        <item> yang mempunyai nama Latin Piper Albi Linn adalah sebuah tanaman yang kaya akan kandungan kimia, seperti minyak lada, minyak lemak, juga pati. </item>
+        <item> sekelompok tumbuhan dari marga Brassica yang dimanfaatkan daun atau bunganya sebagai bahan pangan (sayuran), baik segar maupun diolah. Sawi mencakup beberapa spesies Brassica. </item>
+        <item> sayuran daun dan tumbuhan obat yang biasa digunakan sebagai bumbu masakan. Beberapa negara termasuk Jepang, Cina dan Korea mempergunakan bagian tangkai daun sebagai bahan makanan. </item>
+        <item> tumbuhan penghasil buah yang dijadikan sayur-sayuran. Asalnya adalah India dan Sri Lanka[2][3]. Terung berkerabat dekat dengan kentang dan leunca, dan agak jauh dari tomat. </item>
+        <item> merupakan tumbuhan yang menghasilkan buah yang dapat dimakan. Buahnya dipanen ketika belum masak benar untuk dijadikan sayuran atau penyegar, tergantung jenisnya.  </item>
+        <item> adalah tumbuhan dari keluarga Solanaceae, tumbuhan asli Amerika Tengah dan Selatan, dari Meksiko sampai Peru. Tomat merupakan tumbuhan siklus hidup singkat, dapat tumbuh setinggi 1 sampai 3 meter. </item>
+        <item> tumbuhan biennial (siklus hidup 12 - 24 bulan) yang menyimpan karbohidrat dalam jumlah besar untuk tumbuhan tersebut berbunga pada tahun kedua. Batang bunga tumbuh setinggi sekitar 1 m, dengan bunga berwarna putih, dan rasa yang manis langu. </item>
+    </string-array>
+
+
+</resources>

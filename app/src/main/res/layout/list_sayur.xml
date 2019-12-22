@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/parent_layout_vegetable"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_vegetable"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:contentDescription="@string/gambar_sayur"
+        android:src="@drawable/bayam"/>
+
+    <TextView
+        android:id="@+id/tv_vegetable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_26sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_26sdp"
+        android:layout_toEndOf="@id/iv_vegetable"
+        android:layout_toRightOf="@id/iv_vegetable"
+        android:text="@string/nama_sayur"
+        android:textColor="#000"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/tv_description_vegetable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_vegetable"
+        android:layout_toEndOf="@id/iv_vegetable"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:text="@string/nama_deskripsi_sayur"
+        android:textSize="@dimen/_11ssp"
+        android:textColor="#000"/>
+</RelativeLayout>

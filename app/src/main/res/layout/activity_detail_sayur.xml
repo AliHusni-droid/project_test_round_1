@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailSayurActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_100sdp"
+            tools:ignore="UselessLeaf,UselessParent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_detail_vegetable"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:src="@drawable/bayam"/>
+
+            <TextView
+                android:id="@+id/tv_detail_vegetable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nama_sayur"
+                android:textColor="#000"
+                android:textSize="@dimen/_30ssp"/>
+
+            <TextView
+                android:id="@+id/tv_detail_description_vegetable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:text="@string/nama_deskripsi_sayur"
+                android:textSize="@dimen/_15ssp"
+                android:textColor="#000"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
